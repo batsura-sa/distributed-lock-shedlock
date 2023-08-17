@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: off
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    open-in-view: false
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    baseline-on-migrate: true
+    clean-disabled: true
